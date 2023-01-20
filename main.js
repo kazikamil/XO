@@ -30,6 +30,7 @@ clearmat();
 t=1;
 put=poss[0];
 clearXO();
+document.getElementById("victory").innerHTML="";   
 }
 function matched(i,j,n)
 {
@@ -125,6 +126,7 @@ document.getElementById("new_game").onclick=function(event)
    t=1;
    document.getElementById("pl1").innerHTML=pla1;
    document.getElementById("pl2").innerHTML=pla2;
+   document.getElementById("victory").innerHTML="";
 }
 document.getElementById("zone1").onclick=function(event)
 {
